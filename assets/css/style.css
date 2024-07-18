@@ -19,3 +19,30 @@ Light Grey - #D3D3D3
 Dark Grey - #A9A9A9
 */
 
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    background-color: #000;
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #BFA21C), color-stop(1, #F1E4A7));
+    border-radius: 10px;
+}
+
+/* Navbar */
