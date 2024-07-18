@@ -1,6 +1,8 @@
 /* -----Google Fonts----- */
-/* "Shadows Into Light" - Headings */ @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-/* "Dosis" - Text */ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@200..800&family=Shadows+Into+Light&display=swap');
+/* "Shadows Into Light" - Headings */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* "Dosis" - Text */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@200..800&family=Shadows+Into+Light&display=swap');
 
 /* -----Colour Pallet----- */
 /*
@@ -72,10 +74,10 @@ nav {
 }
 
 /* Home Content */
-#home{
+#home {
     width: 100%;
-    height: 84vh;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/coffeehero4.png);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/coffeehero4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 80%;
@@ -83,62 +85,37 @@ nav {
     color: #C0D6D8;
 }
 
-.content h1, h2 {
+.content h1,
+h2 {
     font-family: "Shadows Into Light", sans-serif;
 }
 
 /* about */
-#about{
+#about {
     width: 100%;
     height: 100vh;
-    background: #f7f5f2;
-    font-family: 'Roboto', sans-serif;
-  }
-  #about .container{
-    padding-top: 70px;
-  }
-  .heading{
-    text-align: center;
-    margin-bottom: 50px;
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  .heading span{
-    color: #b2744c;
-  }
-  #about .card{
+    background: #C0D6D8;
+    font-family: "Dosis", sans-serif;
+}
+
+.heading {
+    color: #352D08;
+    font-family: "Shadows Into Light", sans-serif;
+}
+
+#us {
+    color: #BFA21C;
+}
+
+li strong {
+    color: #BFA21C;
+}
+
+.card {
     border-radius: 10px;
-  }
-  #about .card img{
+}
+
+#emmahasan {
     border-radius: 10px;
-  }
-  #about-btn{
-    width: 200px;
-    height: 36px;
-    background: transparent;
-    border: 2px solid #b2744c;
-    color: #b2744c;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  #about-btn:hover{
-    background: #b2744c;
-    color: white;
-  }
-  @media screen and (max-width:982px){
-    #about p{
-      font-size: 8px;
-    }
-  }
-  @media screen and (max-width:766px){
-    #about p{
-      font-size: 15px;
-    }
-    #about{
-      height: 120vh;
-    }
-  }
+}
 
