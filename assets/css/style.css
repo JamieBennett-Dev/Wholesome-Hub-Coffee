@@ -27,7 +27,7 @@ Dark Grey - #A9A9A9
 }
 
 body {
-    height: 200vh;
+    background-color: #C0D6D8;
 }
 
 /* Custom Scrollbar */
@@ -70,3 +70,75 @@ nav {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28191, 162, 28, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+/* Home Content */
+#home{
+    width: 100%;
+    height: 84vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/coffeehero4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-family: "Dosis", sans-serif;
+    color: #C0D6D8;
+}
+
+.content h1, h2 {
+    font-family: "Shadows Into Light", sans-serif;
+}
+
+/* about */
+#about{
+    width: 100%;
+    height: 100vh;
+    background: #f7f5f2;
+    font-family: 'Roboto', sans-serif;
+  }
+  #about .container{
+    padding-top: 70px;
+  }
+  .heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .heading span{
+    color: #b2744c;
+  }
+  #about .card{
+    border-radius: 10px;
+  }
+  #about .card img{
+    border-radius: 10px;
+  }
+  #about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #about-btn:hover{
+    background: #b2744c;
+    color: white;
+  }
+  @media screen and (max-width:982px){
+    #about p{
+      font-size: 8px;
+    }
+  }
+  @media screen and (max-width:766px){
+    #about p{
+      font-size: 15px;
+    }
+    #about{
+      height: 120vh;
+    }
+  }
+
