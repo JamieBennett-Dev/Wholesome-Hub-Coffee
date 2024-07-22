@@ -218,6 +218,12 @@ nav {
 
 #gallery img {
     border-radius: 5px;
+    border: 2px solid #BFA21C;
+    transition: all 0.2s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
 }
 
 /* -----Events Page----- */
