@@ -41,7 +41,7 @@ Dark Grey - #A9A9A9
 ::-webkit-scrollbar-thumb {
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #BFA21C), color-stop(1, #F1E4A7));
     transition: all 0.2ss ease;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -157,7 +157,7 @@ nav {
 }
 
 .about-img {
-    border-radius: 10px;
+    border-radius: 5px;
     height: 500px;
     width: 400px;
     object-fit: cover;
@@ -181,7 +181,7 @@ nav {
     height: 650px;
     width: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #pdf-btn {
@@ -217,15 +217,32 @@ nav {
 }
 
 #gallery img {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* -----Events Page----- */
 #events-1 {
-    background-color: #C0D6D8;
+    background-color: #3F6264;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: "Dosis", sans-serif;
+}
+
+#events-1 h1 {
+    letter-spacing: 2px;
+}
+
+#events-1 h2 {
+    font-family: "Dosis", sans-serif;
+    text-shadow: none;
+}
+
+#events-1 img {
+    border-radius: 5px;
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 #events-2 {
@@ -233,6 +250,11 @@ nav {
     width: 100%;
     height: 100vh;
     font-family: "Dosis", sans-serif;
+}
+
+#events-2 h1 {
+    letter-spacing: 2px;
+    color: #000 !important;
 }
 
 /* -----Contact Page----- */
