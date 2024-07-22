@@ -21,18 +21,14 @@ Light Grey - #D3D3D3
 Dark Grey - #A9A9A9
 */
 
-/* Base Styles */
+/* -----Base Styles----- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #C0D6D8;
-}
-
-/* Custom Scrollbar */
+/* -----Custom Scrollbar----- */
 ::-webkit-scrollbar {
     background-color: #352D08;
     width: 12px;
@@ -47,9 +43,9 @@ body {
     border-radius: 10px;
 }
 
-/* Navbar */
+/* -----Navbar----- */
 nav {
-    background: none;
+    background-color: #3F6264;
     font-family: "Shadows Into Light", sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
@@ -73,49 +69,33 @@ nav {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28191, 162, 28, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* Home Content */
+/* -----Home Content----- */
 #home {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/coffeehero4.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/wh-emmawave.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 80%;
     font-family: "Dosis", sans-serif;
-    color: #C0D6D8;
-}
-
-.content h1,
-h2 {
-    font-family: "Shadows Into Light", sans-serif;
-}
-
-/* about */
-#about {
-    width: 100%;
-    height: 100vh;
-    background: #C0D6D8;
-    font-family: "Dosis", sans-serif;
-}
-
-.heading {
-    color: #352D08;
-    font-family: "Shadows Into Light", sans-serif;
-}
-
-#us {
     color: #BFA21C;
 }
 
-li strong {
-    color: #BFA21C;
+.content h1, h2 {
+    font-family: "Shadows Into Light", sans-serif;
+    transition: all 0.2s ease;
+    text-shadow: 4px 4px 4px #000;
 }
 
-.card {
-    border-radius: 10px;
+.content p {
+    transition: all 0.2s ease;
+    text-shadow: 4px 4px 4px #000;
 }
 
-#emmahasan {
-    border-radius: 10px;
+.content h1:hover, h2:hover {
+    transform: scale(1.05);
 }
 
+.content p:hover {
+    transform: scale(1.05);
+}
