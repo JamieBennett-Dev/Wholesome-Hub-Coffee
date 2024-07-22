@@ -152,6 +152,10 @@ nav {
     font-family: "Dosis", sans-serif;
 }
 
+#about h1 {
+    letter-spacing: 2px;
+}
+
 .about-img {
     border-radius: 10px;
     height: 500px;
@@ -169,8 +173,12 @@ nav {
     color: #000;
 }
 
+#menu h1 {
+    letter-spacing: 2px;
+}
+
 .carousel-item img {
-    height: 800px;
+    height: 650px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -193,6 +201,23 @@ nav {
 
 #menu i:hover {
     transform: scale(1.1);
+}
+
+/* -----Gallery Page----- */
+#gallery {
+    background-color: #C0D6D8;
+    width: 100%;
+    height: 100%;
+    font-family: "Dosis", sans-serif;
+}
+
+#gallery h1 {
+    color: #000;
+    letter-spacing: 2px;
+}
+
+#gallery img {
+    border-radius: 10px;
 }
 
 /* -----Contact Page----- */
@@ -247,6 +272,10 @@ nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#contact-2 h1 {
+    letter-spacing: 2px;
 }
 
 #name, #email, #subject, #message {
