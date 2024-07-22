@@ -58,6 +58,7 @@ nav {
 
 .nav-link:hover {
     color: #F1E4A7;
+    transform: scale(1.1);
 }
 
 .navbar-toggler {
@@ -67,6 +68,22 @@ nav {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28191, 162, 28, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* -----Footer Content----- */
+#footer {
+    background-color: #3F6264;
+    font-family: "Dosis", sans-serif;
+}
+
+#footer i {
+    color: #BFA21C;
+    transition: all 0.2s ease;
+}
+
+#footer i:hover {
+    transform: scale(1.1);
+    color: #F1E4A7;
 }
 
 /* -----Home Content----- */
