@@ -144,6 +144,22 @@ nav {
     transform: scale(1.05);
 }
 
+/* -----About Content----- */
+#about {
+    background-color: #3F6264;
+    width: 100%;
+    height: 100%;
+    font-family: "Dosis", sans-serif;
+}
+
+.about-img {
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
 /* -----Contact Page----- */
 #contact-1 {
     font-family: "Dosis", sans-serif;
