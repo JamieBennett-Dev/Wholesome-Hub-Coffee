@@ -231,6 +231,10 @@ nav {
     font-family: "Dosis", sans-serif;
 }
 
+.gallery-header {
+    height: 100%;
+}
+
 #gallery h1 {
     color: #FFF;
     letter-spacing: 2px;
